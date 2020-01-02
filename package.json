@@ -1,6 +1,6 @@
 {
   "name": "@augmentedjs/presentation-react-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Augmented.js Next Presentation - Basic components (react.js)",
   "main": "public/presentation-react-components.js",
   "scripts": {
