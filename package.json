@@ -1,0 +1,46 @@
+{
+  "name": "@augmentedjs/presentation-react-components",
+  "version": "1.0.0",
+  "description": "Augmented.js Next Presentation - Basic components (react.js)",
+  "main": "public/presentation-react-components.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "mocha --require @babel/register --require test/helper.js -c test/*Spec.js --timeout 5000",
+    "testthis": "mocha --require @babel/register --require test/helper.js --timeout 5000",
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
+  },
+  "keywords": [
+    "react",
+    "augmentedjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Augmentedjs/presentation-react-components.git"
+  },
+  "author": "Bob Warren <jedi.master@augmentedjs.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/register": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "chai": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "jsdom": "^15.2.1",
+    "mocha": "^6.2.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Augmentedjs/presentation-react-components/issues"
+  },
+  "homepage": "https://github.com/Augmentedjs/presentation-react-components"
+}
